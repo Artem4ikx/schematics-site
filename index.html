@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Schematics Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Стили для красивой поисковой строки с анимациями */
+        .search-container {
+            max-width: 500px;
+            margin: 0 auto 30px auto;
+            padding: 0 15px;
+            animation: fadeIn 1s ease;
+        }
+        
+        .search-input {
+            width: 100%;
+            padding: 12px 20px;
+            background: var(--card-bg);
+            border: 1px solid rgba(139, 92, 246, 0.2);
+            border-radius: 8px;
+            color: var(--text-color);
+            font-size: 1rem;
+            outline: none;
+            /* Плавный переход для всех измеряемых свойств */
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); 
+        }
+
+        /* Анимация при наведении курсора mouse hover */
+        .search-input:hover {
+            border-color: rgba(139, 92, 246, 0.6);
+            box-shadow: 0 0 15px rgba(139, 92, 246, 0.15);
+            transform: translateY(-1px);
+        }
+
+        /* Анимация при клике и активном вводе текста */
+        .search-input:focus {
+            border-color: var(--accent-color);
+            box-shadow: 0 0 25px rgba(139, 92, 246, 0.35);
+            transform: translateY(-2px) scale(1.015);
+            background-color: #191530; /* Слегка подсвечиваем фон изнутри */
+        }
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <h1>Minecraft Schematics</h1>
+        <p class="header-subtitle">Лучшие постройки и механизмы для вашего мира</p>
+    </header>
+
+    <!-- Поисковая строка -->
+    <div class="search-container">
+        <input type="text" id="searchInput" class="search-input" placeholder="Поиск по названию или автору...">
+    </div>
+
+    <!-- Навигация по категориям -->
+    <nav id="tabsContainer"></nav>
+
+    <!-- Сетка карточек -->
+    <main class="grid" id="schematicsGrid"></main>
+
+    <!-- Модальное окно (Большая карточка) -->
+    <div class="modal" id="schematicModal">
+        <div class="modal-content">
+            <span class="close-btn" id="modalCloseBtn">&times;</span>
+            <img src="" alt="Preview" class="modal-img" id="modalImg">
+            <div class="modal-body">
+                <div class="modal-header-info">
+                    <div class="modal-title-block">
+                        <h2 id="modalTitle"></h2>
+                        <span class="modal-author-tag" id="modalAuthor"></span>
+                    </div>
+                    <span class="card-version" id="modalVersion"></span>
+                </div>
+                <p class="modal-desc" id="modalDesc"></p>
+                <div class="tutorial-box" id="modalTutorialContainer">
+                    <h3>Инструкция / Туториал</h3>
+                    <div id="modalTutorialContent"></div>
+                </div>
+                <a href="" target="_blank" class="download-btn" id="modalDownload">Скачать схематику (Google Диск)</a>
+            </div>
+        </div>
+    </div>
+
+        <!-- Полноэкранный просмотр картинки (Lightbox) -->
+    <div class="fullscreen-lightbox" id="imageLightbox">
+        <img src="" alt="Zoomed view" id="lightboxImg">
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
+
+</body>
+</html>
