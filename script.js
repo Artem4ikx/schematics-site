@@ -141,6 +141,17 @@ const schematicsData = [
         downloadUrl: "https://drive.google.com/file/d/1NNtaEoCfBObIz4rrrZFua5ISEB1tJBJS/view?usp=sharing",
         desc: "Lazy тнт пушка, стреляющая на 90 градусов и работающая на раздатчиках с динамитом. Работает на всех ядрах. Прилагается программа для настройки пушки",
         tutorialContent: "https://www.youtube.com/watch?v=HsCm4oRpres"
+    },
+    {
+        id: 13,
+        category: "tnt",
+        title: "Маленькая орбитальная пушка под paper 1.1",
+        version: "1.21.4",
+        author: "Artem4ik",
+        imgUrl: "https://i.ibb.co/HfjGXyZC/area-render-8.png",
+        downloadUrl: "https://drive.google.com/file/d/11rfyVoKERPCKbcCOsrS1aYjmYfAULZRp/view?usp=sharing",
+        desc: "Lazy тнт пушка, стреляющая на 90 градусов и работающая на раздатчиках с динамитом. Работает на всех ядрах. Строить нужно низко. По сравнению с прошлой моделью(88 блоков) этот механизм стал почти в 2 раза меньше(46 блоков)",
+        tutorialContent: "Сначала загрузить сколько тнт нужно в payload(до 64 на paper), потом в раздатчики по сторонам. Проверьте, что рычаг выключен"
     }
 ];
 
