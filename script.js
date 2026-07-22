@@ -152,6 +152,17 @@ const schematicsData = [
         downloadUrl: "https://drive.google.com/file/d/11rfyVoKERPCKbcCOsrS1aYjmYfAULZRp/view?usp=sharing",
         desc: "Lazy тнт пушка, стреляющая на 90 градусов и работающая на раздатчиках с динамитом. Работает на всех ядрах. Строить нужно низко. По сравнению с прошлой моделью(88 блоков) этот механизм стал почти в 2 раза меньше(46 блоков)",
         tutorialContent: "Сначала загрузить сколько тнт нужно в payload(до 64 на paper), потом в раздатчики по сторонам. Проверьте, что рычаг выключен"
+    },
+    {
+        id: 14,
+        category: "tnt",
+        title: "Реилган на 80 тнт с дюпом",
+        version: "1.16 - last",
+        author: "Artem4ik",
+        imgUrl: "https://i.ibb.co/4RxG7MMK/area-render-9.png",
+        downloadUrl: "https://drive.google.com/file/d/1NP1Mnw0GPltp4jbdIK7g6TcDi7xT2ew9/view?usp=sharing",
+        desc: "Реилган с настройкой мощности выстрела(20, 40, 60, 80 тнт), точным выстрелом(одна траектория) и со снесением 2 тотемов сразу(3 лука)",
+        tutorialContent: "https://www.youtube.com/watch?v=s8VFyhOb-Oo"
     }
 ];
 
