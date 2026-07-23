@@ -163,6 +163,17 @@ const schematicsData = [
         downloadUrl: "https://drive.google.com/file/d/1NP1Mnw0GPltp4jbdIK7g6TcDi7xT2ew9/view?usp=sharing",
         desc: "Реилган с настройкой мощности выстрела(20, 40, 60, 80 тнт), точным выстрелом(одна траектория) и со снесением 2 тотемов сразу(3 лука)",
         tutorialContent: "https://www.youtube.com/watch?v=s8VFyhOb-Oo"
+    },
+    {
+        id: 15,
+        category: "tnt",
+        title: "Тнт дюпер на 10 динамита с настройкой",
+        version: "1.13 - last",
+        author: "Jan, Artem4ik",
+        imgUrl: "https://i.ibb.co/99R0G83c/area-render-10.png",
+        downloadUrl: "https://drive.google.com/file/d/1HumJSa05lkJqEvXbkMdp40tymL9gLdEA/view?usp=sharing",
+        desc: "Тнт дюпер с возможностью выбора количества тнт, которое нужно продублировать",
+        tutorialContent: "В кафедре выберете сколько тнт нужно дюпнуть, а потом нажмите на нотный блок на противополжной стороне"
     }
 ];
 
